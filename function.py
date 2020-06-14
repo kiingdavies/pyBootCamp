@@ -1,5 +1,8 @@
-import cal
+x = int(input("Enter a number: "))
+y = int(input("Enter another number: "))
 
-y = cal.mult(2,9)
-print(y)
+def add(x,y):
+    a = x + y
+    print(a)
 
+add(x,y)
